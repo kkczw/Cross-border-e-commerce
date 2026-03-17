@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $BROWSERACT_API_KEY)",
+      "Bash(BROWSERACT_API_KEY=\"app-okBjxdKXuXVat49zGcAMrE63\" python -u amazon_product_api.py \"electronics\" \"\" 1 \"zh-CN\")",
+      "Bash(BROWSERACT_API_KEY=\"app-okBjxdKXuXVat49zGcAMrE63\" python -u amazon_product_api.py \"electronics\" \"\" 1 \"en\")",
+      "Bash(python -c \"import sys; print\\(''Python version:'', sys.version\\)\")",
+      "Bash(pip list)",
+      "Bash(python -u amazon_product_api.py \"best selling electronics\" \"\" 1)",
+      "Bash(pip install DrissionPage --user)",
+      "Bash(where python)"
+    ]
+  }
+}
